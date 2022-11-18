@@ -67,4 +67,9 @@ li > button:hover {
 #scissors:hover {
     cursor: pointer;
     font-size: 175px;
+} 
+#round-result {
+    text-align: center;
+    font-size: 50px;
+    margin-top: -25px;
 }
