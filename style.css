@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100&family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    height: 200vw;
+    background-color: #28251f; 
+    color: #fff;
+} 
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+} 
+nav > ul {
+    display: flex; 
+    list-style: none;
+    gap: 125px;
+} 
+li > button {
+    border: none;
+    background: #FFBD33;
+    padding: 7px 15px;
+    border-radius: 20px; 
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 2px 0px black;
+}
+li > button:hover {
+    cursor: pointer;
+    background: #f0af23; 
+    box-shadow: 0px 0px 0px black;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px; 
+    height: 20%;
+} 
+.titles {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+}
+#rock {
+    font-size: 150px;
+} 
+#rock:hover {
+    cursor: pointer;
+    font-size: 175px;
+}
+#paper {
+    font-size: 150px;
+}
+#paper:hover {
+    cursor: pointer;
+    font-size: 175px;
+}
+#scissors {
+    font-size: 150px;
+}
+#scissors:hover {
+    cursor: pointer;
+    font-size: 175px;
+}
