@@ -1,5 +1,4 @@
 
-const roundButton = document.getElementById('round-button');
 const resButton = document.getElementById('restart-button');
 const scoreButton = document.getElementById('score-button');
 const rockChoice = document.getElementById('rock');
