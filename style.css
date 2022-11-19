@@ -40,7 +40,7 @@ li > button:hover {
     justify-content: center;
     align-items: center;
     gap: 200px; 
-    height: 20%;
+    height: 15%;
 } 
 .titles {
     font-size: 50px;
@@ -71,5 +71,13 @@ li > button:hover {
 #round-result {
     text-align: center;
     font-size: 50px;
-    margin-top: -25px;
+    /* margin-top: -25px; */
+}
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 3%;
+    font-size: 25px;
 }
