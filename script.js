@@ -26,6 +26,7 @@ function playGame() {
     }
 };
 
+
 pScore.innerText = playerScore;
 cScore.innerText = computerScore;
 
@@ -110,6 +111,8 @@ scissorsChoice.addEventListener('click', event => {
         // alert('Player Score:'+ " "+ playerScore + " "+ '||' + " "+ 'Computer Score:' + " "+ computerScore);
         roundResults.innerText = ""; 
     }) 
+
+
 
 
     
