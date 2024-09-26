@@ -51,9 +51,16 @@ li > button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px; 
-    height: 15%;
+    gap: 20px;
+    padding: 20px;
 } 
+
+.controls div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .titles {
     font-size: 50px;
     display: block;
@@ -82,7 +89,9 @@ li > button:hover {
 } 
 #round-result {
     text-align: center;
-    font-size: 50px;
+    /* font-size: 50px; */
+    margin: 20px;
+    font-size: 24px;
     /* margin-top: -25px; */
 }
 .score {
@@ -92,6 +101,7 @@ li > button:hover {
     gap: 25px;
     height: 3%;
     font-size: 25px;
+    padding: 20px;
 }
 
 @media (max-width: 768px) {
