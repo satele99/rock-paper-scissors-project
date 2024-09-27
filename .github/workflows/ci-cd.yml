@@ -36,4 +36,4 @@ jobs:
     steps:
       - name: Trigger Jenkins Job
         run: |
-          curl -X POST "http://${{ secrets.JENKINS_SERVER_IP }}:8080/job/Deploy-Static-App/build?token=${{ secrets.JENKINS_TOKEN }}"
+          curl -u POST 'http://${{ secrets.JENKINS_SERVER_IP }}:8080/job/Deploy-Static-App/build?token=${{ secrets.JENKINS_TOKEN }}'
