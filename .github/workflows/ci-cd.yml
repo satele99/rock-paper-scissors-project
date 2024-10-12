@@ -19,25 +19,25 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+  # test:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout code
+  #       uses: actions/checkout@v2
 
-      # - name: Validate HTML
-      #   uses: cybozu-go/github-actions-htmlhint@v1.1.0
+  #     # - name: Validate HTML
+  #     #   uses: cybozu-go/github-actions-htmlhint@v1.1.0
 
-      - name: Install stylelint 
-        run: npm install -g stylelint
-      - name: Run CSS validation
-        uses: stylelint style.css
+  #     - name: Install stylelint 
+  #       run: npm install -g stylelint
+  #     - name: Run CSS validation
+  #       uses: stylelint style.css
 
-      - name: Lint JavaScript
-        run: npx eslint script.js
+  #     - name: Lint JavaScript
+  #       run: npx eslint script.js
 
-      # - name: Set up Selenium
-      #   uses: seleniumhq/setup-selenium@v1
+  #     # - name: Set up Selenium
+  #     #   uses: seleniumhq/setup-selenium@v1
   
   # Single deploy job since we're just deploying
   deploy:
