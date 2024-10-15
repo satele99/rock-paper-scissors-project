@@ -1,0 +1,14 @@
+{
+  "name": "rock-paper-scissors-project",
+  "version": "1.0.0",
+  "description": "This a simple game of rock, paper, scissor..SHOOT! \r The player chooses their selection first, and the computer automatically chooses.\r Toward the bottom of the screen will be some text that lets the player know if they won or if the computer won. \r The score is kept per game.\r You can check the current score by pressing the 'check score' button.\r Also, You can reset the score by pressing the 'reset score' button.",
+  "main": "script.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
